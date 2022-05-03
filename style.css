@@ -3,7 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
 }
 /* img{
     
@@ -12,20 +14,16 @@ body{
     border-image-outset: unset;
 } */
 .container{
-    background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000);
-    font-family: Arial, Helvetica, sans-serif;
-    background-repeat: no-repeat;
-    width: 1500px;
+    width: 800px;
     height: 100vh;
     margin: 0px auto;
-    color: antiquewhite;
+    color: white;
     text-align: center;
     /* padding-top: 350px; */
 }
 h1,
 h2,
 h3 {
-    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 2.6rem;
